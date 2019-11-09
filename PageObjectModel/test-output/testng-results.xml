@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CreateLead Test Automation Page Object Model Suite" duration-ms="51635" started-at="2019-11-09T22:44:28 IST" finished-at="2019-11-09T22:45:19 IST">
+    <groups>
+    </groups>
+    <test name="CreateLead Test Automation Page Object Model Test Cases" duration-ms="51635" started-at="2019-11-09T22:44:28 IST" finished-at="2019-11-09T22:45:19 IST">
+      <class name="org.testleaf.qa.testcases.CreateLeadTestCases">
+        <test-method status="PASS" signature="setCeateLeadData()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="setCeateLeadData" is-config="true" duration-ms="31" started-at="2019-11-09T22:44:28 IST" finished-at="2019-11-09T22:44:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCeateLeadData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="login" is-config="true" duration-ms="7943" started-at="2019-11-09T22:44:29 IST" finished-at="2019-11-09T22:44:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="runCreateLeadTestCases" duration-ms="18467" started-at="2019-11-09T22:44:37 IST" data-provider="fetchLeadsData" finished-at="2019-11-09T22:44:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vishvanathan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Veerabathiran]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vishvanathan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="closeBrowser" is-config="true" duration-ms="2166" started-at="2019-11-09T22:44:55 IST" finished-at="2019-11-09T22:44:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="login" is-config="true" duration-ms="6726" started-at="2019-11-09T22:44:57 IST" finished-at="2019-11-09T22:45:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="runCreateLeadTestCases" duration-ms="13083" started-at="2019-11-09T22:45:04 IST" data-provider="fetchLeadsData" finished-at="2019-11-09T22:45:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tata Consultancy Services Limited]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vishvanathan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Veerabathiran]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vishvanathan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="closeBrowser" is-config="true" duration-ms="2177" started-at="2019-11-09T22:45:17 IST" finished-at="2019-11-09T22:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testleaf.qa.testcases.CreateLeadTestCases -->
+    </test> <!-- CreateLead Test Automation Page Object Model Test Cases -->
+  </suite> <!-- CreateLead Test Automation Page Object Model Suite -->
+</testng-results>
