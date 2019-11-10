@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="CreateLead Test Automation Page Object Model Suite" duration-ms="203528" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:11:51 IST">
+  <suite name="CreateLead Test Automation Page Object Model Suite" duration-ms="234165" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:38:31 IST">
     <groups>
     </groups>
-    <test name="CreateLead Test Automation Page Object Model Test Cases" duration-ms="203528" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:11:51 IST">
+    <test name="CreateLead Test Automation Page Object Model Test Cases" duration-ms="234165" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:38:31 IST">
       <class name="org.testleaf.qa.testcases.DeleteLeadTestCases">
-        <test-method status="PASS" signature="setDeleteLeadData()[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="setDeleteLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+        <test-method status="PASS" signature="setDeleteLeadData()[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="setDeleteLeadData" is-config="true" duration-ms="1" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDeleteLeadData -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="login" is-config="true" duration-ms="5892" started-at="2019-11-10T09:10:52 IST" finished-at="2019-11-10T09:10:58 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="login" is-config="true" duration-ms="5822" started-at="2019-11-10T09:37:30 IST" finished-at="2019-11-10T09:37:36 IST">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runDeleteLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="runDeleteLeadTestCases" duration-ms="16978" started-at="2019-11-10T09:10:58 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:11:15 IST">
+        <test-method status="PASS" signature="runDeleteLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="runDeleteLeadTestCases" duration-ms="17259" started-at="2019-11-10T09:37:36 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:37:53 IST">
           <params>
             <param index="0">
               <value>
@@ -43,17 +43,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDeleteLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="closeBrowser" is-config="true" duration-ms="2220" started-at="2019-11-10T09:11:15 IST" finished-at="2019-11-10T09:11:18 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="closeBrowser" is-config="true" duration-ms="2178" started-at="2019-11-10T09:37:53 IST" finished-at="2019-11-10T09:37:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.testleaf.qa.testcases.DeleteLeadTestCases -->
       <class name="org.testleaf.qa.testcases.EditLeadTestCases">
-        <test-method status="PASS" signature="setEditLeadData()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="setEditLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+        <test-method status="PASS" signature="setEditLeadData()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="setEditLeadData" is-config="true" duration-ms="1" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setEditLeadData -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="login" is-config="true" duration-ms="5612" started-at="2019-11-10T09:09:13 IST" finished-at="2019-11-10T09:09:19 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="login" is-config="true" duration-ms="6257" started-at="2019-11-10T09:35:44 IST" finished-at="2019-11-10T09:35:50 IST">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runEditLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="runEditLeadTestCases" duration-ms="16420" started-at="2019-11-10T09:09:19 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:09:35 IST">
+        <test-method status="PASS" signature="runEditLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="runEditLeadTestCases" duration-ms="19943" started-at="2019-11-10T09:35:50 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:36:10 IST">
           <params>
             <param index="0">
               <value>
@@ -95,11 +95,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runEditLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="closeBrowser" is-config="true" duration-ms="2153" started-at="2019-11-10T09:09:35 IST" finished-at="2019-11-10T09:09:37 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="closeBrowser" is-config="true" duration-ms="2139" started-at="2019-11-10T09:36:10 IST" finished-at="2019-11-10T09:36:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="login" is-config="true" duration-ms="5347" started-at="2019-11-10T09:09:37 IST" finished-at="2019-11-10T09:09:43 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="login" is-config="true" duration-ms="6077" started-at="2019-11-10T09:36:12 IST" finished-at="2019-11-10T09:36:18 IST">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runEditLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="runEditLeadTestCases" duration-ms="17217" started-at="2019-11-10T09:09:43 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:10:00 IST">
+        <test-method status="PASS" signature="runEditLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="runEditLeadTestCases" duration-ms="20227" started-at="2019-11-10T09:36:18 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:36:38 IST">
           <params>
             <param index="0">
               <value>
@@ -141,17 +141,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runEditLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="closeBrowser" is-config="true" duration-ms="2187" started-at="2019-11-10T09:10:00 IST" finished-at="2019-11-10T09:10:02 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="closeBrowser" is-config="true" duration-ms="2120" started-at="2019-11-10T09:36:38 IST" finished-at="2019-11-10T09:36:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.testleaf.qa.testcases.EditLeadTestCases -->
       <class name="org.testleaf.qa.testcases.MergeLeadTestCases">
-        <test-method status="PASS" signature="setMergeLeadData()[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="setMergeLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+        <test-method status="PASS" signature="setMergeLeadData()[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="setMergeLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMergeLeadData -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="login" is-config="true" duration-ms="6034" started-at="2019-11-10T09:11:18 IST" finished-at="2019-11-10T09:11:24 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="login" is-config="true" duration-ms="5709" started-at="2019-11-10T09:37:55 IST" finished-at="2019-11-10T09:38:01 IST">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runMergeLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="runMergeLeadTestCases" duration-ms="27220" started-at="2019-11-10T09:11:24 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:11:51 IST">
+        <test-method status="PASS" signature="runMergeLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="runMergeLeadTestCases" duration-ms="27994" started-at="2019-11-10T09:38:01 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:38:29 IST">
           <params>
             <param index="0">
               <value>
@@ -188,17 +188,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runMergeLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="closeBrowser" is-config="true" duration-ms="211" started-at="2019-11-10T09:11:51 IST" finished-at="2019-11-10T09:11:51 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="closeBrowser" is-config="true" duration-ms="2158" started-at="2019-11-10T09:38:29 IST" finished-at="2019-11-10T09:38:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.testleaf.qa.testcases.MergeLeadTestCases -->
       <class name="org.testleaf.qa.testcases.DuplicateLeadTestCases">
-        <test-method status="PASS" signature="setDuplicateLeadData()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="setDuplicateLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+        <test-method status="PASS" signature="setDuplicateLeadData()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="setDuplicateLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDuplicateLeadData -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="login" is-config="true" duration-ms="5515" started-at="2019-11-10T09:10:02 IST" finished-at="2019-11-10T09:10:08 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="login" is-config="true" duration-ms="5653" started-at="2019-11-10T09:36:41 IST" finished-at="2019-11-10T09:36:46 IST">
           <params>
             <param index="0">
               <value>
@@ -209,7 +209,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runDuplicateLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="runDuplicateLeadTestCases" duration-ms="17054" started-at="2019-11-10T09:10:08 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:10:25 IST">
+        <test-method status="PASS" signature="runDuplicateLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="runDuplicateLeadTestCases" duration-ms="15826" started-at="2019-11-10T09:36:46 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:37:02 IST">
           <params>
             <param index="0">
               <value>
@@ -230,11 +230,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDuplicateLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="closeBrowser" is-config="true" duration-ms="2157" started-at="2019-11-10T09:10:25 IST" finished-at="2019-11-10T09:10:27 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="closeBrowser" is-config="true" duration-ms="2155" started-at="2019-11-10T09:37:02 IST" finished-at="2019-11-10T09:37:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="login" is-config="true" duration-ms="6164" started-at="2019-11-10T09:10:27 IST" finished-at="2019-11-10T09:10:33 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="login" is-config="true" duration-ms="5833" started-at="2019-11-10T09:37:04 IST" finished-at="2019-11-10T09:37:10 IST">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runDuplicateLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="runDuplicateLeadTestCases" duration-ms="16942" started-at="2019-11-10T09:10:33 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:10:50 IST">
+        <test-method status="PASS" signature="runDuplicateLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="runDuplicateLeadTestCases" duration-ms="17327" started-at="2019-11-10T09:37:10 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:37:27 IST">
           <params>
             <param index="0">
               <value>
@@ -266,17 +266,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDuplicateLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="closeBrowser" is-config="true" duration-ms="2174" started-at="2019-11-10T09:10:50 IST" finished-at="2019-11-10T09:10:52 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="closeBrowser" is-config="true" duration-ms="2154" started-at="2019-11-10T09:37:27 IST" finished-at="2019-11-10T09:37:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.testleaf.qa.testcases.DuplicateLeadTestCases -->
       <class name="org.testleaf.qa.testcases.CreateLeadTestCases">
-        <test-method status="PASS" signature="setCeateLeadData()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="setCeateLeadData" is-config="true" duration-ms="31" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+        <test-method status="PASS" signature="setCeateLeadData()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="setCeateLeadData" is-config="true" duration-ms="40" started-at="2019-11-10T09:34:37 IST" finished-at="2019-11-10T09:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCeateLeadData -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="login" is-config="true" duration-ms="7180" started-at="2019-11-10T09:08:29 IST" finished-at="2019-11-10T09:08:36 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="login" is-config="true" duration-ms="8711" started-at="2019-11-10T09:34:38 IST" finished-at="2019-11-10T09:34:47 IST">
           <params>
             <param index="0">
               <value>
@@ -287,7 +287,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="runCreateLeadTestCases" duration-ms="15462" started-at="2019-11-10T09:08:36 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:08:52 IST">
+        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="runCreateLeadTestCases" duration-ms="20813" started-at="2019-11-10T09:34:47 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:35:08 IST">
           <params>
             <param index="0">
               <value>
@@ -323,11 +323,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCreateLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="closeBrowser" is-config="true" duration-ms="155" started-at="2019-11-10T09:08:52 IST" finished-at="2019-11-10T09:08:52 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="closeBrowser" is-config="true" duration-ms="310" started-at="2019-11-10T09:35:08 IST" finished-at="2019-11-10T09:35:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="login" is-config="true" duration-ms="5741" started-at="2019-11-10T09:08:52 IST" finished-at="2019-11-10T09:08:58 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="login" is-config="true" duration-ms="20632" started-at="2019-11-10T09:35:08 IST" finished-at="2019-11-10T09:35:29 IST">
           <params>
             <param index="0">
               <value>
@@ -338,7 +338,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="runCreateLeadTestCases" duration-ms="13143" started-at="2019-11-10T09:08:58 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:09:11 IST">
+        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="runCreateLeadTestCases" duration-ms="12405" started-at="2019-11-10T09:35:29 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:35:41 IST">
           <params>
             <param index="0">
               <value>
@@ -374,7 +374,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCreateLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="closeBrowser" is-config="true" duration-ms="2166" started-at="2019-11-10T09:09:11 IST" finished-at="2019-11-10T09:09:13 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="closeBrowser" is-config="true" duration-ms="2185" started-at="2019-11-10T09:35:41 IST" finished-at="2019-11-10T09:35:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
