@@ -264,7 +264,7 @@ public class SeleniumBase implements Browser, Element {
 				driver = new ChromeDriver();
 			} else if(browser.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver",
-						"./drivers/Geckodriver/geckodriver.exe");
+						"./drivers/Geckodriver/geckodriver_32bit.exe");
 				driver = new FirefoxDriver();
 			} else if(browser.equalsIgnoreCase("ie")) {
 				System.setProperty("webdriver.ie.driver",
