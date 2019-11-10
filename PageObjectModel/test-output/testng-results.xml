@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="CreateLead Test Automation Page Object Model Suite" duration-ms="51635" started-at="2019-11-09T22:44:28 IST" finished-at="2019-11-09T22:45:19 IST">
+  <suite name="CreateLead Test Automation Page Object Model Suite" duration-ms="203528" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:11:51 IST">
     <groups>
     </groups>
-    <test name="CreateLead Test Automation Page Object Model Test Cases" duration-ms="51635" started-at="2019-11-09T22:44:28 IST" finished-at="2019-11-09T22:45:19 IST">
-      <class name="org.testleaf.qa.testcases.CreateLeadTestCases">
-        <test-method status="PASS" signature="setCeateLeadData()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="setCeateLeadData" is-config="true" duration-ms="31" started-at="2019-11-09T22:44:28 IST" finished-at="2019-11-09T22:44:28 IST">
+    <test name="CreateLead Test Automation Page Object Model Test Cases" duration-ms="203528" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:11:51 IST">
+      <class name="org.testleaf.qa.testcases.DeleteLeadTestCases">
+        <test-method status="PASS" signature="setDeleteLeadData()[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="setDeleteLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setCeateLeadData -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="login" is-config="true" duration-ms="7943" started-at="2019-11-09T22:44:29 IST" finished-at="2019-11-09T22:44:37 IST">
+        </test-method> <!-- setDeleteLeadData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="login" is-config="true" duration-ms="5892" started-at="2019-11-10T09:10:52 IST" finished-at="2019-11-10T09:10:58 IST">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,272 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="runCreateLeadTestCases" duration-ms="18467" started-at="2019-11-09T22:44:37 IST" data-provider="fetchLeadsData" finished-at="2019-11-09T22:44:55 IST">
+        <test-method status="PASS" signature="runDeleteLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="runDeleteLeadTestCases" duration-ms="16978" started-at="2019-11-10T09:10:58 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:11:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DeleteLeadTestCases@b1ffe6]" name="closeBrowser" is-config="true" duration-ms="2220" started-at="2019-11-10T09:11:15 IST" finished-at="2019-11-10T09:11:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testleaf.qa.testcases.DeleteLeadTestCases -->
+      <class name="org.testleaf.qa.testcases.EditLeadTestCases">
+        <test-method status="PASS" signature="setEditLeadData()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="setEditLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEditLeadData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="login" is-config="true" duration-ms="5612" started-at="2019-11-10T09:09:13 IST" finished-at="2019-11-10T09:09:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runEditLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="runEditLeadTestCases" duration-ms="16420" started-at="2019-11-10T09:09:19 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:09:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vishvanathan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TATA Consultancy Services Limited]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TATA Consultancy Services Limited]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="closeBrowser" is-config="true" duration-ms="2153" started-at="2019-11-10T09:09:35 IST" finished-at="2019-11-10T09:09:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="login" is-config="true" duration-ms="5347" started-at="2019-11-10T09:09:37 IST" finished-at="2019-11-10T09:09:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runEditLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="runEditLeadTestCases" duration-ms="17217" started-at="2019-11-10T09:09:43 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:10:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vishvanathan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.EditLeadTestCases@170d1b1]" name="closeBrowser" is-config="true" duration-ms="2187" started-at="2019-11-10T09:10:00 IST" finished-at="2019-11-10T09:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testleaf.qa.testcases.EditLeadTestCases -->
+      <class name="org.testleaf.qa.testcases.MergeLeadTestCases">
+        <test-method status="PASS" signature="setMergeLeadData()[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="setMergeLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMergeLeadData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="login" is-config="true" duration-ms="6034" started-at="2019-11-10T09:11:18 IST" finished-at="2019-11-10T09:11:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runMergeLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="runMergeLeadTestCases" duration-ms="27220" started-at="2019-11-10T09:11:24 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:11:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMergeLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.MergeLeadTestCases@1fc5fb8]" name="closeBrowser" is-config="true" duration-ms="211" started-at="2019-11-10T09:11:51 IST" finished-at="2019-11-10T09:11:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testleaf.qa.testcases.MergeLeadTestCases -->
+      <class name="org.testleaf.qa.testcases.DuplicateLeadTestCases">
+        <test-method status="PASS" signature="setDuplicateLeadData()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="setDuplicateLeadData" is-config="true" duration-ms="0" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDuplicateLeadData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="login" is-config="true" duration-ms="5515" started-at="2019-11-10T09:10:02 IST" finished-at="2019-11-10T09:10:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runDuplicateLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="runDuplicateLeadTestCases" duration-ms="17054" started-at="2019-11-10T09:10:08 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:10:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDuplicateLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="closeBrowser" is-config="true" duration-ms="2157" started-at="2019-11-10T09:10:25 IST" finished-at="2019-11-10T09:10:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="login" is-config="true" duration-ms="6164" started-at="2019-11-10T09:10:27 IST" finished-at="2019-11-10T09:10:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runDuplicateLeadTestCases(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="runDuplicateLeadTestCases" duration-ms="16942" started-at="2019-11-10T09:10:33 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:10:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDuplicateLeadTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.DuplicateLeadTestCases@742aa2]" name="closeBrowser" is-config="true" duration-ms="2174" started-at="2019-11-10T09:10:50 IST" finished-at="2019-11-10T09:10:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testleaf.qa.testcases.DuplicateLeadTestCases -->
+      <class name="org.testleaf.qa.testcases.CreateLeadTestCases">
+        <test-method status="PASS" signature="setCeateLeadData()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="setCeateLeadData" is-config="true" duration-ms="31" started-at="2019-11-10T09:08:28 IST" finished-at="2019-11-10T09:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCeateLeadData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="login" is-config="true" duration-ms="7180" started-at="2019-11-10T09:08:29 IST" finished-at="2019-11-10T09:08:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="runCreateLeadTestCases" duration-ms="15462" started-at="2019-11-10T09:08:36 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:08:52 IST">
           <params>
             <param index="0">
               <value>
@@ -58,11 +323,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCreateLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="closeBrowser" is-config="true" duration-ms="2166" started-at="2019-11-09T22:44:55 IST" finished-at="2019-11-09T22:44:57 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="closeBrowser" is-config="true" duration-ms="155" started-at="2019-11-10T09:08:52 IST" finished-at="2019-11-10T09:08:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="login" is-config="true" duration-ms="6726" started-at="2019-11-09T22:44:57 IST" finished-at="2019-11-09T22:45:04 IST">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="login" is-config="true" duration-ms="5741" started-at="2019-11-10T09:08:52 IST" finished-at="2019-11-10T09:08:58 IST">
           <params>
             <param index="0">
               <value>
@@ -73,7 +338,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="runCreateLeadTestCases" duration-ms="13083" started-at="2019-11-09T22:45:04 IST" data-provider="fetchLeadsData" finished-at="2019-11-09T22:45:17 IST">
+        <test-method status="PASS" signature="runCreateLeadTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="runCreateLeadTestCases" duration-ms="13143" started-at="2019-11-10T09:08:58 IST" data-provider="fetchLeadsData" finished-at="2019-11-10T09:09:11 IST">
           <params>
             <param index="0">
               <value>
@@ -109,7 +374,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCreateLeadTestCases -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@1553d26]" name="closeBrowser" is-config="true" duration-ms="2177" started-at="2019-11-09T22:45:17 IST" finished-at="2019-11-09T22:45:19 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testleaf.qa.testcases.CreateLeadTestCases@556333]" name="closeBrowser" is-config="true" duration-ms="2166" started-at="2019-11-10T09:09:11 IST" finished-at="2019-11-10T09:09:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

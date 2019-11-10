@@ -4,14 +4,14 @@
   <parameter name="url" value="http://leaftaps.com/opentaps/control/main"/>
   <test thread-count="5" verbose="5" name="CreateLead Test Automation Page Object Model Test Cases(failed)">
     <classes>
-      <class name="org.testleaf.qa.testcases.CreateLeadTestCases">
+      <class name="org.testleaf.qa.testcases.DuplicateLeadTestCases">
         <methods>
-          <include name="runCreateLeadTestCases" invocation-numbers="0 1"/>
           <include name="login"/>
           <include name="closeBrowser"/>
-          <include name="setCeateLeadData"/>
+          <include name="runDuplicateLeadTestCases" invocation-numbers="1"/>
+          <include name="setDuplicateLeadData"/>
         </methods>
-      </class> <!-- org.testleaf.qa.testcases.CreateLeadTestCases -->
+      </class> <!-- org.testleaf.qa.testcases.DuplicateLeadTestCases -->
     </classes>
   </test> <!-- CreateLead Test Automation Page Object Model Test Cases(failed) -->
 </suite> <!-- Failed suite [CreateLead Test Automation Page Object Model Suite] -->
