@@ -32,6 +32,12 @@ public class SeleniumBase implements Browser, Element {
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
 	public String Firstname;
+	public String excelFileName;
+	public String sheetName;
+	public static String leadId;
+	public static String firstResultingName;
+	public static String MergerID;
+	public static String FirstNameId;
 	
 	
 	int i=1;

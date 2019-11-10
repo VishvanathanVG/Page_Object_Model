@@ -5,10 +5,10 @@
   <test thread-count="5" name="CreateLead Test Automation Page Object Model Test Cases">
    <classes>
  	 <class name="org.testleaf.qa.testcases.CreateLeadTestCases"/>
-   	<!--   <class name="org.testleaf.qa.testcases.EditLeadTestCases"/>
+   	  <class name="org.testleaf.qa.testcases.EditLeadTestCases"/>
    		<class name="org.testleaf.qa.testcases.DuplicateLeadTestCases"/>
    	 	 <class name="org.testleaf.qa.testcases.DeleteLeadTestCases"/>
-   	 	  <class name="org.testleaf.qa.testcases.MergeLeadTestCases"/> -->
+   	 	  <class name="org.testleaf.qa.testcases.MergeLeadTestCases"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

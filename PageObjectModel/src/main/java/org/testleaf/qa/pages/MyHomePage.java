@@ -6,7 +6,8 @@ public class MyHomePage extends ProjectSpecificMethods{
 
 	public MyLeadPage clickOnLead() {
 		
-		driver.findElementByLinkText("Leads").click();
+		click(locateElement("link", "Leads"));
+		//driver.findElementByLinkText("Leads").click();
 		return new MyLeadPage();
 	}
 	

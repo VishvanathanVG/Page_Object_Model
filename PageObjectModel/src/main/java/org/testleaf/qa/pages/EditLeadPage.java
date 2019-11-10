@@ -7,14 +7,16 @@ public class EditLeadPage extends ProjectSpecificMethods{
 
 	public EditLeadPage enterChangeCompanyNameInEditLeadPage(String companyname) {
 		CompanyNameUpdated =companyname;
-		WebElement companyName = driver.findElementById("updateLeadForm_companyName");
+		clearAndType(locateElement("id", "updateLeadForm_companyName"), companyname);
+		/*WebElement companyName = driver.findElementById("updateLeadForm_companyName");
 		companyName.clear();
-		companyName.sendKeys(companyname);
+		companyName.sendKeys(companyname);*/
 		return this;
 	}
 	
 	public ViewLeadPage clickOnUpdateBtnInEditLeadPage() {
-		driver.findElementByName("submitButton").click();
+		click(locateElement("name", "submitButton"));
+		//driver.findElementByName("submitButton").click();
 		return new ViewLeadPage();
 	}
 	

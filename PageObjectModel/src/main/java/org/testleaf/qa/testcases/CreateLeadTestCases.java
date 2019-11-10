@@ -1,5 +1,6 @@
 package org.testleaf.qa.testcases;
 
+import org.testleaf.qa.api.base.SeleniumBase;
 import org.testleaf.qa.baseAPI.ProjectSpecificMethods;
 import org.testleaf.qa.pages.LoginPage;
 import org.testng.annotations.BeforeTest;

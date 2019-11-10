@@ -16,17 +16,15 @@ import com.beust.jcommander.Parameter;
 
 public class ProjectSpecificMethods extends SeleniumBase{
 
-	//edited Vishva
-	//Edited Vishva
-	//public static ChromeDriver driver;
-	public String excelFileName;
-	public String sheetName;
+	
+/*	public String excelFileName;
+	public String sheetName;*/
 	//public String Firstname;
 	public String CompanyNameUpdated;
-	public static String firstResultingName;
-	public static String leadId;
-	public static String MergerID;
-	public static String FirstNameId;
+	//public static String firstResultingName;
+	//public static String leadId;
+	//public static String MergerID;
+	//public static String FirstNameId;
 	
 	@Parameters({"url"})
 	@BeforeMethod
